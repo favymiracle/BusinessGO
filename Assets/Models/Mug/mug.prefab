@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1353594683679492}
+  m_IsPrefabAsset: 1
+--- !u!1 &1321187447456488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4800435450833396}
+  - component: {fileID: 33481345839189226}
+  - component: {fileID: 23824014701540864}
+  - component: {fileID: 114341283720033150}
+  m_Layer: 0
+  m_Name: Circle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1353594683679492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4604381923354578}
+  - component: {fileID: 111770879440396512}
+  m_Layer: 0
+  m_Name: mug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4604381923354578
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353594683679492}
+  m_LocalRotation: {x: 0, y: 0.8320201, z: 0, w: -0.5547456}
+  m_LocalPosition: {x: -4.4682617, y: 0.5963917, z: 0.4904709}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4800435450833396}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4800435450833396
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321187447456488}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4604381923354578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23824014701540864
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321187447456488}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 7f5635c81272eaa40a88312edd07a2ca, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33481345839189226
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321187447456488}
+  m_Mesh: {fileID: 4300000, guid: e9ebf7ad9ccb9384a90816951efed02b, type: 3}
+--- !u!111 &111770879440396512
+Animation:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353594683679492}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114341283720033150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321187447456488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eabe5c1a4522b64d9f30210a16f7b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customFont: {fileID: 12800000, guid: 8a37ecfa860219e49abefe1e7025b516, type: 2}
+  fontCountX: 10
+  fontCountY: 10
+  text: Unity
+  textPlacementY: 615
+  perCharacterKerning:
+  - First: ' '
+    Second: 0.188
+  - First: '!'
+    Second: 0.207
+  - First: '"'
+    Second: 0.34
+  - First: '#'
+    Second: 0.466
+  - First: $
+    Second: 0.397
+  - First: '%'
+    Second: 0.635
+  - First: '&'
+    Second: 0.52
+  - First: ''''
+    Second: 0.192
+  - First: (
+    Second: 0.244
+  - First: )
+    Second: 0.244
+  - First: '*'
+    Second: 0.393
+  - First: +
+    Second: 0.397
+  - First: ','
+    Second: 0.209
+  - First: '-'
+    Second: 0.232
+  - First: .
+    Second: 0.206
+  - First: /
+    Second: 0.298
+  - First: 0
+    Second: 0.397
+  - First: 1
+    Second: 0.397
+  - First: 2
+    Second: 0.397
+  - First: 3
+    Second: 0.397
+  - First: 4
+    Second: 0.397
+  - First: 5
+    Second: 0.397
+  - First: 6
+    Second: 0.397
+  - First: 7
+    Second: 0.397
+  - First: 8
+    Second: 0.397
+  - First: 9
+    Second: 0.397
+  - First: ':'
+    Second: 0.206
+  - First: ;
+    Second: 0.209
+  - First: <
+    Second: 0.397
+  - First: =
+    Second: 0.397
+  - First: '>'
+    Second: 0.397
+  - First: '?'
+    Second: 0.331
+  - First: '@'
+    Second: 0.624
+  - First: A
+    Second: 0.468
+  - First: B
+    Second: 0.463
+  - First: C
+    Second: 0.446
+  - First: D
+    Second: 0.505
+  - First: E
+    Second: 0.404
+  - First: F
+    Second: 0.396
+  - First: G
+    Second: 0.522
+  - First: H
+    Second: 0.523
+  - First: I
+    Second: 0.281
+  - First: J
+    Second: 0.239
+  - First: K
+    Second: 0.457
+  - First: L
+    Second: 0.386
+  - First: M
+    Second: 0.658
+  - First: N
+    Second: 0.564
+  - First: O
+    Second: 0.545
+  - First: P
+    Second: 0.431
+  - First: Q
+    Second: 0.545
+  - First: R
+    Second: 0.454
+  - First: S
+    Second: 0.378
+  - First: T
+    Second: 0.402
+  - First: U
+    Second: 0.516
+  - First: V
+    Second: 0.44
+  - First: W
+    Second: 0.668
+  - First: X
+    Second: 0.452
+  - First: Y
+    Second: 0.421
+  - First: Z
+    Second: 0.389
+  - First: '['
+    Second: 0.239
+  - First: \
+    Second: 0.298
+  - First: ']'
+    Second: 0.239
+  - First: ^
+    Second: 0.384
+  - First: _
+    Second: 0.297
+  - First: '`'
+    Second: 0.416
+  - First: a
+    Second: 0.414
+  - First: b
+    Second: 0.438
+  - First: c
+    Second: 0.36
+  - First: d
+    Second: 0.438
+  - First: e
+    Second: 0.419
+  - First: f
+    Second: 0.279
+  - First: g
+    Second: 0.404
+  - First: h
+    Second: 0.452
+  - First: i
+    Second: 0.22
+  - First: j
+    Second: 0.22
+  - First: k
+    Second: 0.425
+  - First: l
+    Second: 0.22
+  - First: m
+    Second: 0.679
+  - First: n
+    Second: 0.452
+  - First: o
+    Second: 0.432
+  - First: p
+    Second: 0.438
+  - First: q
+    Second: 0.438
+  - First: r
+    Second: 0.313
+  - First: s
+    Second: 0.347
+  - First: t
+    Second: 0.305
+  - First: u
+    Second: 0.452
+  - First: v
+    Second: 0.389
+  - First: w
+    Second: 0.581
+  - First: x
+    Second: 0.395
+  - First: y
+    Second: 0.389
+  - First: z
+    Second: 0.33
+  - First: '{'
+    Second: 0.262
+  - First: '|'
+    Second: 0.397
+  - First: '}'
+    Second: 0.262
+  - First: ~
+    Second: 0.397
+  lineSpacing: 0.75
+  useSharedMaterial: 1
+  decalTextureSize: 1024
+  characterSize: 0.9
+  textureID: _DecalTex
+  guiInterface: {fileID: 0}
